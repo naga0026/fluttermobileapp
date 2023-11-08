@@ -1,0 +1,28 @@
+﻿{
+  "CommandStartSymbol": "^XA",
+  "SeparatorTypeZpl": {
+    "BarSense": "MNM",
+    "GapSense": "MNW"
+  },
+  "LabelLength": {
+    "NorthAmerica": {
+      "Markdown": "195",
+      "Sticker": "456",
+      "Transfers": "642"
+    },
+    "Europe": {
+      "Markdown": "250",
+      "Sticker": "280",
+      "Transfers": "452"
+    },
+    "Common": {
+      "RecallTracking": "195",
+      "Sign": {
+        "Small": "640",
+        "Large": "985"
+      },
+      "HangTag": "761",
+      "Shoes": "985"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "EuropeOfficeAddress": {
+    "AustriaOfficeAddress": {
+      "Address1": "TJX DE Ltd&CoKG",
+      "Address2": "P.MullerStr18-40468Ddorf",
+      "Address3": ""
+    },
+    "UnitedKingdomOfficeAddress": {
+      "Address1": "73 Clarendon Road,",
+      "Address2": "Watford, WD17 1TX",
+      "Address3": ""
+    },
+    "GermanyOfficeAddress": {
+      "Address1": "TJX DE Ltd&CoKG",
+      "Address2": "P.MullerStr18-40468Ddorf",
+      "Address3": ""
+    },
+    "IrelandOfficeAddress": {
+      "Address1": "TJX DE Ltd&CoKG",
+      "Address2": "P.MullerStr18-40468Ddorf",
+      "Address3": ""
+    },
+    "NetherlandsOfficeAddress": {
+      "Address1": "TJX DE Ltd&CoKG",
+      "Address2": "P.MullerStr18-40468Ddorf",
+      "Address3": ""
+    },
+    "PolandOfficeAddress": {
+      "Address1": "TJX DE Ltd&CoKG",
+      "Address2": "P.MullerStr18-40468Ddorf",
+      "Address3": ""
+    }
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "Description": "Markdowns and Price Adjust Label for Divisions 04 and 24",
+    "TagType": [ "Markdown", "MarkdownPriceAtLeast1000" ],
+    "Condition": "IsDivision_04_or_24",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW456",
+      "^POI",
+      "^LT0",
+      "^FO150,45^A0N,45,45^FD{{FormattedPrice}}^FS",
+      "^FO100,85^BY1^BCN,45,N,N^FD{{Barcode}}^FS",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Markdowns and Price Adjust Label for Divisions 08 and 28",
+    "TagType": [ "Markdown", "MarkdownPriceAtLeast1000" ],
+    "Condition": "IsDivision_08_or_28",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW456",
+      "^POI",
+      "^LT0",
+      "^FO100,45^ADN^FD{{DigiUserId}}^FS",
+      "^FO180,45^A0N,35,40^FD{{FormattedPrice}}^FS",
+      "^FO98,78^BY1^BCN,45,N,N^FD{{Barcode}}^FS",
+      "^FO120,128^A0N,20,20^FD{{Dept}} {{ClassCode}} {{Style}} {{Price}} {{WeekNumberLabel}}^FS",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "MarshallsUsa Markdowns and Price Adjust Label for Division 10 (Price under 1000.00)",
+    "TagType": [ "Markdown" ],
+    "Condition": "IsDivision_10",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW456",
+      "^POI",
+      "^LT0",
+      "^FO100,45^ADN^FD{{DigiUserId}}^FS",
+      "^FO180,45^A0N,35,40^FD{{FormattedPrice}}^FS",
+      "^FO98,78^BY1^BCN,45,N,N^FD{{Barcode}}^FS",
+      "^FO120,128^A0N,20,20^FD12{{Dept}} {{Uline}} {{Price}} {{WeekNumberLabel}}^FS",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "MarshallsUsa Markdowns and Price Adjust Label for Division 10 (Price at least 1000.00)",
+    "TagType": [ "MarkdownPriceAtLeast1000" ],
+    "Condition": "IsDivision_10",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^POI",
+      "^PW456",
+      "^LT0",
+      "^FO100,45^ADN^FD{{DigiUserId}}^FS",
+      "^FO180,50^A0N,45,48^FD{{FormattedPrice}}^FS",
+      "^FO110,105^A0N,22,22^FD12{{Dept}} {{Uline}} {{Price}}^FS",
+      "^FO305,130^A0N,20,25^FD{{WeekNumberLabel}}^FS",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Markdowns for Divisions 05",
+    "TagType": [ "Markdown" ],
+    "Condition": "IsDivision_05",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO110,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Markdowns for Divisions 55",
+    "TagType": [ "Markdown" ],
+    "Condition": "IsDivision_55",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO40,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Markdowns for Divisions 05",
+    "TagType": [ "MarkdownPriceAtLeast1000" ],
+    "Condition": "IsDivision_05",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO80,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Markdowns for Divisions 55",
+    "TagType": [ "MarkdownPriceAtLeast1000" ],
+    "Condition": "IsDivision_55",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO30,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Price Adjust Label for Divisions 05",
+    "TagType": [ "PriceAdjust" ],
+    "Condition": "IsDivision_05",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO110,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Price Adjust Label for Divisions 55",
+    "TagType": [ "PriceAdjust" ],
+    "Condition": "IsDivision_55",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO40,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Price Adjust Label for Divisions 05 with price 1K and above",
+    "TagType": [ "PriceAdjustPriceAtLeast1000" ],
+    "Condition": "IsDivision_05",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO80,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  },
+  {
+    "Description": "Price Adjust Label for Divisions 55 with price 1K and above",
+    "TagType": [ "PriceAdjustPriceAtLeast1000" ],
+    "Condition": "IsDivision_55",
+    "LabelDefinition": [
+      "^XA",
+      "^PQ1",
+      "^PW325",
+      "^POI",
+      "^LT-30",
+      "^FO30,15^CI0,156,36^A0N,40,40^FD{{FormattedPrice}}^FS^FS",
+      "^FO260,30^ADN^FD{{WeekNumberLabel}}^FS",
+      "^FO45,52^BY1^BCN,45,Y,N^FD{{Barcode}}^FS",
+      "^CI13,36,156",
+      "^XZ"
+    ]
+  }
+]

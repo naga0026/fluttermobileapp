@@ -1,0 +1,23 @@
+[
+  {
+    "CurrentDivision": "04",
+    "ReturnDivisionId": "04",
+    "ReturnStoreNumberId": "0891",
+    "AlternateReturnDivisionId": null,
+    "AlternateReturnStoreNumberId": null
+  },
+  {
+    "CurrentDivision": "08",
+    "ReturnDivisionId": "08",
+    "ReturnStoreNumberId": "0896",
+    "AlternateReturnDivisionId": null,
+    "AlternateReturnStoreNumberId": null
+  },
+  {
+    "CurrentDivision": "10",
+    "ReturnDivisionId": "10",
+    "ReturnStoreNumberId": "0888",
+    "AlternateReturnDivisionId": "08",
+    "AlternateReturnStoreNumberId": "0896"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "ValidPrices": [
+    {
+      "DivisionCode": "04",
+      "Initial": [
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "05",
+      "Initial": [
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "08",
+      "Initial": [
+        "5",
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "10",
+      "Initial": [
+        "5",
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "24",
+      "Initial": [
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "28",
+      "Initial": [
+        "5",
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    },
+    {
+      "DivisionCode": "55",
+      "Initial": [
+        "9"
+      ],
+      "Sub": [
+        "0"
+      ]
+    }
+  ]
+}
