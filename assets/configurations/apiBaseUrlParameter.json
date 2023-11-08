@@ -1,7 +1,0 @@
-{
-  "ApiBaseUrl": "https://dev.api.tjx.com/stores/storeweb/usmar0705/v2",
-  "apigeeURL" : "https://qa.api.tjx.com/stores/storeweb/oAuth2/accesstoken?grant_type=client_credentials",
-  "apigeeClientID" : "EG90mv1Jsxs0saY53xr4QRD7AAQvm8jN",
-  "apigeeSecret" : "DGatVVOL3QbyqzFw",
-  "ipAddress": null
-}
