@@ -1,0 +1,1 @@
+enum DeptValidEnum { found, deptInvalid, notFound }
