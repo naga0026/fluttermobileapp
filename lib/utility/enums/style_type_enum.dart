@@ -1,3 +1,0 @@
-enum StyleTypeEnum {
-  style, uline
-}
